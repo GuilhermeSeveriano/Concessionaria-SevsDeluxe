@@ -1,0 +1,668 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: audiowide;
+}
+@font-face {
+  font-family: Audiowide;
+  src: url();
+}
+body{
+background-color:#000000 ;
+
+
+}
+.verifcss{
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+header{
+  width: 100%;
+  background-color: #545454;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  color: #000000;
+}
+
+
+.container-logo{
+  display: flex;
+  align-items: center;
+  border: solid 2px #000000 ;
+  border-radius: 15px;
+}
+
+.container-logo h1{
+text-align: center;
+margin-right: 20px;
+}
+
+.logo-texto{
+margin-left: 30px;
+align-items: center;
+}
+
+.menu li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.menu li a{
+  font-size: 24px;
+text-decoration: none;
+color: #000000;
+text-transform: uppercase;
+background-color:#545454; 
+padding: 10px 15px;
+border-radius: 15px;
+}
+
+.menu li a:hover{
+  background-color:#700000 ;
+}
+
+.container-index{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #222;
+  padding: 20px 50px;
+  font-style: italic;
+  font-size: 17px;
+  
+}
+
+.coluna {
+  
+  border:  1px #000000;
+  padding: 20px; 
+  text-align: center;
+  color: white;
+  
+}
+.coluna  a{
+  color: white;
+  text-decoration: none;
+  font-family: audiowide, sans-serif;
+
+}
+
+a:hover{
+  color: #800000;
+  text-decoration: underline;
+
+}
+
+.descricao{
+  padding: 10px 100px;
+  text-align: center;
+  color: #ffff;
+  text-decoration: #000000;
+  font-size: 20px;
+  
+}
+
+h2{
+  text-align: center;
+  margin-top: 10px;
+  font-style:italic;
+  font-size: 30px;
+  margin-top: 35px;
+  color: #f5fffa;
+
+}
+
+.log{
+  text-decoration: none;
+  color: #000000;
+}
+
+.log:hover{
+  text-decoration: none;
+  color: #000000;
+}
+
+.gol{
+  text-decoration: none;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+/*FOOTER*/
+
+
+.social{
+  background-color: rgb(51, 51, 51);
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  
+
+
+  }
+.pulapag{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.5em;
+  
+}
+
+.numpg{
+  color: white;
+  text-decoration: none;
+  border-radius:60px;
+  background-color:#800000;
+  padding: 5px;
+  display: inline-block;
+}
+.numpg:hover{
+  color: #222;
+  background-color: #ffffff;
+  text-decoration: none;
+
+}
+
+
+/*----------------------------------------------------------------------------------------------------*/
+/* CSS BOTAO COMPRAR*/
+.botao {
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: #800000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 20%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0.5em 40%;
+  
+}
+
+.botao span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.botao span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.botao:hover span {
+  padding-right: 25px;
+}
+
+.botao:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.corbot{
+  color:#FFFFFF;
+}
+
+@media only screen and (max-width: 300px){
+  
+}
+
+
+ 
+/*OUTROS MODELOS*/
+.textin{
+  margin: 0px 50px;
+  font-size: 30px;
+  font-style: italic;
+  padding: 10px;
+  background-color: #800000;
+  border-radius: 10px 50px;
+  color: #bbb;
+  
+}
+
+
+.textin2{
+  margin: 0px 10px;
+  font-size: 30px;
+  font-style: italic;
+  padding: 10px;
+  background-color: #000000;
+  color: #bbb;
+  text-align:center;  
+ 
+}
+
+
+.posfigcaption{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  
+}
+/*''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''*/
+.sobre {
+margin: 40px 70px;
+font-size: 20px;
+}
+/*TELA DE PAGAMENTO*/
+.pagamento {
+  font-size: 17px;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin:30px 100px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.jow {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.compag {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+
+.finalizar{
+  margin: 1em 1em;
+  
+
+}
+.fim{
+  
+  color: #ffffff;
+  background-color: #700000;
+  border: none;
+  height: 50px;
+  width: 180px;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+.fim:hover{
+  background-color: #70000080;
+  cursor: pointer;
+  text-decoration: none;
+}
+.agradece, .garagem{
+ 
+
+  border-radius: 1px;
+  padding: 200px;
+  background-color: #700000;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+ 
+}
+.garagem{
+background-color: #000000;
+color: #FFFFFF;
+margin: 0%;
+}
+
+.voltaloja{
+  padding: 0.5em;
+  background-color: #800000;
+  color: #ffffff;
+
+}
+
+.vltloja{
+  color:#FFFFFF;
+  text-decoration: none;
+
+}
+.vltloja:hover{
+  background-color: black;
+  color:#FFFFFF;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+/*LOJA*/
+.posicaotitulo{
+  display: flex;
+  justify-content: center;
+}
+
+.Titulo_Loja{
+  text-align: center;
+  margin: 2em;
+  background-color: #700000;
+  border-radius: 20px;
+  color: #FFFFFF;
+  height: auto;
+  width: 60em;
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+.localidade{
+  display: flex;
+  justify-content: center;
+}
+
+iframe{
+  width: 150em;
+  height: 30em;
+  border-color: #222;
+  
+}
+
+.posicaolocalizacao{
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+
+.Localizacao{
+  color: white;
+  background-color: #000000;
+  font-size: 1.5em;
+  border-radius: 50px;
+  width: 30em;
+  text-align: center;
+ 
+}
+.Indicacao{
+  display:flex;
+  justify-content: center;
+  margin: 30px;
+  font-size: 1.3em;
+}
+.posicaohorario{
+  display: flex;
+  justify-content: center;
+  
+
+}
+.Horario{
+  color: #700000;
+ text-align: center;
+  margin: 10px;
+  font-size: 20px;
+  background-color: #FFFFFF;
+  border-radius: 50px 30px;
+  padding: 50px;
+  width: 30em;
+  
+
+
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*MIDIA SOCIAL*/
+
+.flex-center {
+  width: 100%;
+  min-height: 0vh;
+  
+
+  
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon-3d {
+  padding: 10px;
+  -webkit-animation: icon3d 200ms 10;
+  animation: icon3d 200ms 10;
+  color: #000000;
+
+}
+i:hover{
+color: rgb(68, 66, 66);
+
+}
+
+
+.videocarro{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------*/
+/* CSS VALOR CARRO */
+
+.Preco{
+
+ text-align: center;
+ align-items: center;
+ font-size: 20px;
+ padding: 10px;
+ color: #f5fffa;
+
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------------*/
+/*CSS DO CAROUSEL INDEX*/
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  justify-content: center; /*position*/
+  margin: 100px 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*CAROUSEL CARROS*/
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.container-carros {
+  position:relative;
+  margin: 50px 100px;
+  align-items: center;
+}
+
+
+/* Ponteiro ao passar o mouse sobre as imagens em miniatura*/
+.cursor {
+  cursor: pointer;
+}
+
+/* Botões seguinte e anterior */
+.anterior,
+.proximo {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Posicione o "próximo botão" à direita */
+.proximo {
+  right: 0px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Ao passar o mouse, adicione uma cor de fundo preta com um pouco de transparência */
+.anterior:hover,
+.proximo:hover {
+  background-color: #000000;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/*Recipiente para texto de imagem */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: #FFFFFF;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+  
+}
+.column img{
+  margin-right: 30px;
+}
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+ 
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
